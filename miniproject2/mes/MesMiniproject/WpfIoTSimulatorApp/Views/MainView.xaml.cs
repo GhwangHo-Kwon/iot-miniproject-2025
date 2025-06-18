@@ -34,7 +34,7 @@ namespace WpfIoTSimulatorApp.Views
             DoubleAnimation ga = new DoubleAnimation();
             ga.From = 0;
             ga.To = 360; // 360도 회전
-            ga.Duration = TimeSpan.FromSeconds(5);  // 계획 로드타임(Schedules의 LoadTime 값이 들어가야 함)
+            ga.Duration = TimeSpan.FromSeconds(2);  // 계획 로드타임(Schedules의 LoadTime 값이 들어가야 함)
 
             RotateTransform rt = new RotateTransform();
             GearStart.RenderTransform = rt;
@@ -48,7 +48,7 @@ namespace WpfIoTSimulatorApp.Views
             DoubleAnimation pa = new DoubleAnimation();
             pa.From = 127;
             pa.To = 417; // x축: 센서아래 위치
-            pa.Duration = TimeSpan.FromSeconds(5); // 계획 로드타임(Schedules의 LoadTime 값이 들어가야 함)
+            pa.Duration = TimeSpan.FromSeconds(2); // 계획 로드타임(Schedules의 LoadTime 값이 들어가야 함)
 
             Product.BeginAnimation(Canvas.LeftProperty, pa);
         }
@@ -61,18 +61,15 @@ namespace WpfIoTSimulatorApp.Views
         private void StartSensorCheck()
         {
             // 센서 애니메이션
-            Dispatcher.Invoke(DispatcherPriority.Normal, new Action(delegate
+            DoubleAnimation sa = new DoubleAnimation
             {
-                DoubleAnimation sa = new DoubleAnimation
-                {
-                    From = 1,
-                    To = 0,
-                    Duration = TimeSpan.FromSeconds(1),
-                    AutoReverse = true
-                };
+                From = 1,
+                To = 0,
+                Duration = TimeSpan.FromSeconds(1),
+                AutoReverse = true
+            };
 
-                SortingSensor.BeginAnimation(OpacityProperty, sa);
-            }));
+            SortingSensor.BeginAnimation(OpacityProperty, sa);
 
             // 랜덤으로 색상을 결정짓는 작업
             Random rand = new Random();
