@@ -62,11 +62,11 @@ public partial class IoTDbContext : DbContext
                 .HasComment("실제 종료시간")
                 .HasColumnType("time")
                 .HasColumnName("prcEndTime");
-            entity.Property(e => e.PrcFacillityId)
+            entity.Property(e => e.PrcFacilityId)
                 .HasMaxLength(8)
                 .IsFixedLength()
                 .HasComment("실제 공정장비아이디")
-                .HasColumnName("prcFacillityId");
+                .HasColumnName("prcFacilityId");
             entity.Property(e => e.PrcLoadTime)
                 .HasComment("실제 로드타임")
                 .HasColumnName("prcLoadTime");
@@ -112,10 +112,10 @@ public partial class IoTDbContext : DbContext
             entity.Property(e => e.SchEndTime)
                 .HasColumnType("time")
                 .HasColumnName("schEndTime");
-            entity.Property(e => e.SchFacillityId)
+            entity.Property(e => e.SchFacilityId)
                 .HasMaxLength(8)
                 .IsFixedLength()
-                .HasColumnName("schFacillityId");
+                .HasColumnName("schFacilityId");
             entity.Property(e => e.SchStartTime)
                 .HasColumnType("time")
                 .HasColumnName("schStartTime");

@@ -17,7 +17,7 @@ public partial class Schedule
 
     public TimeOnly? SchEndTime { get; set; }
 
-    public string? SchFacillityId { get; set; }
+    public string? SchFacilityId { get; set; }
 
     public int SchAmount { get; set; }
 

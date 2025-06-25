@@ -41,7 +41,7 @@ public partial class Process
     /// <summary>
     /// 실제 공정장비아이디
     /// </summary>
-    public string? PrcFacillityId { get; set; }
+    public string? PrcFacilityId { get; set; }
 
     /// <summary>
     /// 공정처리 여부(1성공, 0실패)

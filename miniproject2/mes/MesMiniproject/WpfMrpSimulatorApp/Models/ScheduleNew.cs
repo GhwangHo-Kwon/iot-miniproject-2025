@@ -20,9 +20,9 @@ public partial class ScheduleNew
 
     public TimeOnly? SchEndTime { get; set; }
 
-    public string? SchFacillityId { get; set; }
+    public string? SchFacilityId { get; set; }
 
-    public string? SchFacillityName { get; set; }
+    public string? SchFacilityName { get; set; }
 
     public int SchAmount { get; set; }
 
