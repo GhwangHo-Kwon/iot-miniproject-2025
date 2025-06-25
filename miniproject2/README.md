@@ -125,8 +125,8 @@ ERD
 10. ScheduleView 데이터그리드, 입력양식 수정
 
 11. EntityFramework용 패키지 설치
-    - Microsoft.EntitiyFrameworkCore
-    - Microsoft.EntitiyFrameworkCore.Tools
+    - Microsoft.EntityFrameworkCore
+    - Microsoft.EntityFrameworkCore.Tools
     - Pomelo.EntityFrameworkCore.MySql
 
 12. ScheduleViewModel EntityFramework DB연동 처리
