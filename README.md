@@ -8,4 +8,4 @@ IoT 미니프로젝트 2025
 [MES 공정관리](./miniproject2/README.md)
 
 ## 미니프로젝트 3
-[링크](./miniproject3/README.md)
+[준비중](./miniproject3/README.md)
