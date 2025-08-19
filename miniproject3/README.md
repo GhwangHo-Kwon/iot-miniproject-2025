@@ -61,14 +61,14 @@
 
 [소스](./conveyor_belt/cb0003.ino)
 
-https://github.com/user-attachments/assets/55dcde90-ed47-42aa-901a-88bc3b5c7e6b
+https://github.com/user-attachments/assets/a18d9062-41c9-417a-bf4a-ad1c5dfceb88
 
 #### 칼라센서 
 - 센싱이 정확하지 않은 문제 내포. 센서가 저렴. 다른 센서와 복합적으로 사용
 
 [소스](./conveyor_belt/cb0004.ino)
 
-https://github.com/user-attachments/assets/2d0c22fa-386c-4d27-bf93-5f36bacd49aa
+https://github.com/user-attachments/assets/accdc7b6-cc69-4fa4-b875-32a16c363166
 
 #### MQTT 통신
 - Arduino R4 WIFI에서 통신 가능. RPi나 외부 연결이 불필요
@@ -84,8 +84,7 @@ https://github.com/user-attachments/assets/2d0c22fa-386c-4d27-bf93-5f36bacd49aa
 
 [소스](./conveyor_belt/cb0006.ino)
 
-
-https://github.com/user-attachments/assets/78f1c2f0-22f2-4e9b-8c8c-6ec47fe813f2
+https://github.com/user-attachments/assets/567ae60e-b329-41af-bbb5-126d14a18037
 
 ### MES 소스수정
 
@@ -122,8 +121,7 @@ https://github.com/user-attachments/assets/78f1c2f0-22f2-4e9b-8c8c-6ec47fe813f2
     }
     ```
 
-https://github.com/user-attachments/assets/b25e44e1-2a77-4699-82e7-d4c422b9ecde
-
+https://github.com/user-attachments/assets/4990050b-bff5-416f-bf68-7acb36574006
 
 ### 추가 진행
 - 컬러센서 센싱 후 부저 동작
