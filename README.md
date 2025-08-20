@@ -1,8 +1,8 @@
 # miniproject-2025
 IoT 미니프로젝트 2025
 
-## 미니프로젝트 1
-[강의실 채팅프로그램](https://github.com/DarkCircle-chatApp-server)
+## 미니프로젝트 1 - 강의실 채팅프로그램
+[링크](https://github.com/DarkCircle-chatApp-server)
 
 ## 미니프로젝트 2 - MRP 공정 시뮬레이션
 [링크](./miniproject2/README.md)
