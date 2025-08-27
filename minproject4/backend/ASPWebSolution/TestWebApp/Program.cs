@@ -9,7 +9,7 @@ namespace TestWebApp
             // HttpClient 등록
             builder.Services.AddHttpClient("MyWebClient", client =>
             {
-                client.BaseAddress = new Uri("http://localhost:8000");  // Python Uvicorn 서비스 URL
+                client.BaseAddress = new Uri("http://localhost:8000");  // Python Uvcorn 서비스 URL
             });
 
             // CORS 허용
@@ -27,7 +27,7 @@ namespace TestWebApp
             //app.MapGet("/", () => "Hello World!");
             app.UseCors();              // 위에서 설정한 CORS를 사용하겠다
             app.UseDefaultFiles();      // index.html을 자동처리 하겠다
-            app.UseStaticFiles();       // wwwroot 폴더사용을 허용하겠다
+            app.UseStaticFiles();       // wwwroot 폴더사용 허용하겠다
             app.MapControllers();       // Controller 기반 매핑(사용)하겠다
 
             app.Run();

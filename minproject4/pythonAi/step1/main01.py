@@ -6,6 +6,6 @@ app = FastAPI()
 async def getRoot():
     return { 'Greeting' : 'Hello FastAPI' }
 
-@app.get('/item/{id}') # RESTfull API POST(C), GET(R), PUT(U), DELETE(D)
+@app.get('/items/{id}') # RESTful API POST(C), GET(R), PUT(U), DELETE(D)
 async def getItem(id: int, desc: str = None):
-    return { 'ID': id, "DESC": desc }
+    return { 'ID': id, 'DESC': desc }
